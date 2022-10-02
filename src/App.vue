@@ -12,12 +12,14 @@
                 </div>
                 <nav class="absolute bg-slate-300 w-full left-0 top-16 pl-2 -translate-y-[200%] lg:translate-y-0 lg:relative lg:top-0 lg:bg-transparent lg:w-fit" 
                 :class="MenuOpen && 'translate-y-0'">
-                    <ul class="flex flex-col py-4 gap-8 lg:flex-row">
+                    <ul class="flex flex-col py-4 gap-8 lg:flex-row lg:items-center">
                         <li>Rent</li>
                         <li>Buy</li>
                         <li>Sell</li>
                         <li>Manage Property</li>
                         <li>Ressources</li>
+                        <li class="border-2 border-indigo-100 px-6 py-3 rounded-sm text-indigo-600 w-fit">Login</li>
+                        <li class="border-2 border-indigo-600 px-6 py-3 rounded-sm bg-indigo-600 text-indigo-100 w-fit">Sign up</li>
                     </ul>
                 </nav>
            </div>
@@ -55,7 +57,7 @@
                 </div>
             </div>
             <div class="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] w-4/5 mx-auto justify-center gap-7">
-                <Card :price="2500" :favori="true" :image="'src/assets/house2.png'"/>
+                <Card :price="2500" :favori="true" :image="'/src/assets/house2.png'"/>
                 <Card :price="2850" :adresse="'2820 Lake Sevilla, Palm Harbor, TX'" :image="'/public/house3.jpg'"/>
                 <Card :price="4500" :favori="true" :adresse="'2820 Lake Sevilla, Palm Harbor, TX'" :image="'/public/house.png'"/>
                 <Card :price="2850" :adresse="'2820 Lake Sevilla, Palm Harbor, TX'" :image="'/public/house4.jpg'"/>
