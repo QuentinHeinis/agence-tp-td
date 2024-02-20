@@ -57,16 +57,16 @@
                 </div>
             </div>
             <div class="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] w-4/5 mx-auto justify-center gap-7">
-                <Card :price="2500" :favori="true" :image="'/src/assets/house2.png'"/>
-                <Card :price="2850" :adresse="'2820 Lake Sevilla, Palm Harbor, TX'" :image="'/public/house3.jpg'"/>
-                <Card :price="4500" :favori="true" :adresse="'2820 Lake Sevilla, Palm Harbor, TX'" :image="'/public/house.png'"/>
-                <Card :price="2850" :adresse="'2820 Lake Sevilla, Palm Harbor, TX'" :image="'/public/house4.jpg'"/>
-                <Card :price="2850" :adresse="'2820 Perdu dans la nature'" :image="'/public/house5.jpg'"/>
-                <Card :price="2500" :favori="true" :image="'/public/house2.png'"/>
-                <Card :price="2850" :adresse="'2820 Lake Sevilla, Palm Harbor, TX'" :image="'/public/house3.jpg'"/>
-                <Card :price="4500" :favori="true" :adresse="'2820 Lake Sevilla, Palm Harbor, TX'" :image="'/public/house.png'"/>
-                <Card :price="2850" :adresse="'2820 Lake Sevilla, Palm Harbor, TX'" :image="'/public/house4.jpg'"/>
-                <Card :price="2850" :adresse="'2820 Lake Sevilla, Perl Harbor, TX'" :image="'/public/house5.jpg'"/>
+                <Card :price="2500" :favori="true" :image="'/house2.png'"/>
+                <Card :price="2850" :adresse="'2820 Lake Sevilla, Palm Harbor, TX'" :image="'/house3.jpg'"/>
+                <Card :price="4500" :favori="true" :adresse="'2820 Lake Sevilla, Palm Harbor, TX'" :image="'/house.png'"/>
+                <Card :price="2850" :adresse="'2820 Lake Sevilla, Palm Harbor, TX'" :image="'/house4.jpg'"/>
+                <Card :price="2850" :adresse="'2820 Perdu dans la nature'" :image="'/house5.jpg'"/>
+                <Card :price="2500" :favori="true" :image="'/house2.png'"/>
+                <Card :price="2850" :adresse="'2820 Lake Sevilla, Palm Harbor, TX'" :image="'/house3.jpg'"/>
+                <Card :price="4500" :favori="true" :adresse="'2820 Lake Sevilla, Palm Harbor, TX'" :image="'/house.png'"/>
+                <Card :price="2850" :adresse="'2820 Lake Sevilla, Palm Harbor, TX'" :image="'/house4.jpg'"/>
+                <Card :price="2850" :adresse="'2820 Lake Sevilla, Perl Harbor, TX'" :image="'/house5.jpg'"/>
             </div>
         </main>
         <footer >
