@@ -71,7 +71,7 @@
       favori: Boolean,
       image: {
         type : String,
-        default: "/public/house.png"},
+        default: "/house.png"},
 
     },
     components: { HeartIcon, bath, bed, superficie },
